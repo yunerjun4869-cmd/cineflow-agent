@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="820" viewBox="0 0 1600 820" role="img" aria-labelledby="title desc">
+<title id="title">映序 CineFlow：给出海商品和品牌，拍一个好故事</title>
+<desc id="desc">黑白电影分镜风格的项目封面。左侧是产品介绍，右侧用三个杯子插画表示连续镜头。这是品牌插画，不是生成结果。</desc>
+<defs>
+  <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M 48 0 H 0 V 48" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+  <g id="cup"><ellipse cx="0" cy="92" rx="57" ry="10" fill="#000" opacity=".07"/><path d="M-43-70H43L34 76Q0 92-34 76Z" fill="#d8d6cf" stroke="#222" stroke-width="2"/><rect x="-48" y="-82" width="96" height="19" rx="7" fill="#242424"/><path d="M-25-52L-20 57" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".55"/><path d="M-12-81V-113H9" stroke="#444" fill="none" stroke-width="7" stroke-linecap="round"/><text x="0" y="21" fill="#555" font-size="12" font-family="Arial,sans-serif" text-anchor="middle" letter-spacing="3">DAY</text></g>
+</defs>
+<rect width="1600" height="820" rx="24" fill="#171717"/>
+<rect width="1600" height="820" rx="24" fill="url(#grid)"/>
+<g font-family="'PingFang SC','Noto Sans CJK SC','Microsoft YaHei',sans-serif">
+  <rect x="64" y="60" width="42" height="42" rx="12" fill="#f6f5ef"/>
+  <path d="M78 70L95 81L78 92Z" fill="#171717"/>
+  <text x="123" y="91" font-size="27" font-weight="600" fill="#f6f5ef">映序 · CineFlow</text>
+  <text x="1530" y="88" text-anchor="end" font-family="Arial,sans-serif" font-size="15" letter-spacing="3" fill="#a4a4a0">A LITTLE STORY. A BETTER VIDEO.</text>
+  <text x="66" y="246" font-size="20" letter-spacing="4" fill="#b7b7b0">FOR BRANDS &amp; CREATORS</text>
+  <text x="62" y="366" font-size="92" font-weight="700" fill="#f6f5ef">好产品，</text>
+  <text x="62" y="482" font-size="92" font-weight="700" fill="#f6f5ef">值得一个好故事。</text>
+  <text x="68" y="550" font-size="25" fill="#b7b7b0">从一个商品卖点，到一组接得上的镜头。</text>
+  <g transform="translate(895 200) rotate(-7)">
+    <rect width="196" height="318" rx="14" fill="#e8e7e0"/>
+    <text x="20" y="35" font-size="13" letter-spacing="2" fill="#555">01 / MORNING</text>
+    <use href="#cup" transform="translate(98 181) scale(.85)"/>
+    <text x="98" y="296" text-anchor="middle" font-size="16" fill="#444">出门，带上它。</text>
+  </g>
+  <g transform="translate(1118 230) rotate(4)">
+    <rect width="196" height="318" rx="14" fill="#f6f5ef"/>
+    <text x="20" y="35" font-size="13" letter-spacing="2" fill="#555">02 / ON THE WAY</text>
+    <use href="#cup" transform="translate(98 181) scale(.85)"/>
+    <text x="98" y="296" text-anchor="middle" font-size="16" fill="#444">通勤，也有陪伴。</text>
+  </g>
+  <g transform="translate(1326 199) rotate(8)">
+    <rect width="196" height="318" rx="14" fill="#d8d7d0"/>
+    <text x="20" y="35" font-size="13" letter-spacing="2" fill="#555">03 / AT WORK</text>
+    <use href="#cup" transform="translate(98 181) scale(.85)"/>
+    <text x="98" y="296" text-anchor="middle" font-size="16" fill="#444">故事里的同一只杯。</text>
+  </g>
+  <text x="1208" y="603" text-anchor="middle" font-size="15" fill="#92928e">品牌插画 · 非模型生成样片</text>
+  <path d="M64 661H1536" stroke="#464642"/>
+  <text x="66" y="719" font-size="23" fill="#f6f5ef">海外电商</text>
+  <text x="260" y="719" font-size="23" fill="#f6f5ef">社交短视频</text>
+  <text x="480" y="719" font-size="23" fill="#f6f5ef">品牌营销</text>
+  <text x="1534" y="715" text-anchor="end" font-size="17" fill="#aaa9a2">脚本 → 分镜 → 生成 → 检查 → 修改</text>
+  <text x="66" y="764" font-size="14" fill="#81817d">OPEN SOURCE · HUMAN IN THE LOOP · MADE FOR BRANDS &amp; CREATORS</text>
+</g>
+</svg>

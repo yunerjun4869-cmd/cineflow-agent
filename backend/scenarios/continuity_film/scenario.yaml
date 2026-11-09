@@ -1,0 +1,28 @@
+name: 映序 · 连贯创作
+tagline: 让每个镜头，都接得上故事
+description: 复用角色与场景设定，抽帧检查人物、服装、道具和相邻片段衔接；支持失败重试。
+category: video
+order: 11
+defaults:
+  style: realistic
+  video_ratio: "16:9"
+  video_resolution: 720P
+  video_generation_mode: first_frame
+  episodes: 1
+ui:
+  hero_title: 让灵感成片，让镜头成章
+  hero_subtitle: 从角色设定到跨镜头审查，每一步都可确认
+  placeholder: 描述故事、主角、场景以及需要保持一致的细节……
+  episodes_label: 集数
+stages:
+  - type: script_generation
+  - type: character_design
+  - type: storyboard
+  - type: reference_generation
+  - type: video_generation
+    name: 并行生成与一致性审查
+    agent: scenarios.continuity_film.agents:ContinuityVideoAgent
+    options:
+      max_retries: 1
+      retry_delay_seconds: 2
+  - type: post_production
